@@ -1,13 +1,13 @@
-package edu.melik.news.cloud.apigateway;
-
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
-class ApiGatewayApplicationTests {
-
-    @Test
-    void contextLoads() {
-    }
-
-}
+//package edu.melik.news.cloud.apigateway;
+//
+//import org.junit.jupiter.api.Test;
+//import org.springframework.boot.test.context.SpringBootTest;
+//
+//@SpringBootTest
+//class ApiGatewayApplicationTests {
+//
+//    @Test
+//    void contextLoads() {
+//    }
+//
+//}

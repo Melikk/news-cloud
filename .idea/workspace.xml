@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fae001d-3d7a-4f7c-a016-b06e3ad57ee6" name="Changes" comment="added config-server">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/edu/melik/news/cloud/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/test/java/edu/melik/news/cloud/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
   </component>
   <component name="ChangesViewManager">
     <option name="groupingKeys">
-      <option value="module" />
+      <option value="directory" />
       <option value="repository" />
     </option>
   </component>
@@ -124,7 +122,7 @@
       <workItem from="1677647797698" duration="2244000" />
       <workItem from="1677653012791" duration="45000" />
       <workItem from="1677653114868" duration="95000" />
-      <workItem from="1677653229844" duration="318000" />
+      <workItem from="1677653229844" duration="4212000" />
     </task>
     <task id="LOCAL-00001" summary="created empty project">
       <created>1677570279766</created>
@@ -154,7 +152,42 @@
       <option name="project" value="LOCAL" />
       <updated>1677648672879</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init">
+      <created>1677653581135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677653581135</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added eureka-server">
+      <created>1677653641240</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677653641240</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added api-server">
+      <created>1677653699334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677653699334</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added api-gateway">
+      <created>1677653727848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677653727848</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added config-server">
+      <created>1677653771901</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677653771901</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +228,8 @@
       <path value="$PROJECT_DIR$/news-cloud" />
     </ignored-roots>
     <MESSAGE value="created empty project" />
+    <MESSAGE value="init" />
+    <MESSAGE value="added eureka-server" />
     <MESSAGE value="added api-server" />
     <MESSAGE value="added api-gateway" />
     <MESSAGE value="added config-server" />
