@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fae001d-3d7a-4f7c-a016-b06e3ad57ee6" name="Changes" comment="added config-server">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2fae001d-3d7a-4f7c-a016-b06e3ad57ee6" name="Changes" comment="properties moved to config-server">
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news-cloud/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/edu/melik/news/cloud/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/test/java/edu/melik/news/cloud/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +65,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/EDU/news-cloud",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "91018ab3cdb6aa26c95df70ae34c1e79"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/EDU/news-cloud&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;91018ab3cdb6aa26c95df70ae34c1e79&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -122,7 +129,8 @@
       <workItem from="1677647797698" duration="2244000" />
       <workItem from="1677653012791" duration="45000" />
       <workItem from="1677653114868" duration="95000" />
-      <workItem from="1677653229844" duration="4212000" />
+      <workItem from="1677653229844" duration="8123000" />
+      <workItem from="1677668334654" duration="968000" />
     </task>
     <task id="LOCAL-00001" summary="created empty project">
       <created>1677570279766</created>
@@ -187,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677653771901</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="properties moved to config-server">
+      <created>1677659606962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677659606962</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +248,8 @@
     <MESSAGE value="added api-server" />
     <MESSAGE value="added api-gateway" />
     <MESSAGE value="added config-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="added config-server" />
+    <MESSAGE value="properties moved to config-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties moved to config-server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
