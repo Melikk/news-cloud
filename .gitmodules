@@ -1,0 +1,15 @@
+[submodule "api-gateway"]
+	path = api-gateway
+	url = C:/EDU/news-cloud/api-gateway/.git
+[submodule "api-server"]
+	path = api-server
+	url = C:/EDU/news-cloud/api-server/.git
+[submodule "config-server"]
+	path = config-server
+	url = C:/EDU/news-cloud/config-server/.git
+[submodule "news-cloud"]
+	path = news-cloud
+	url = C:/EDU/news-cloud/.git
+[submodule "eureka-server"]
+	path = eureka-server
+	url = C:/EDU/news-cloud/eureka-server/.git
